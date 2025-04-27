@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson2_4</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .item{
+            background-color: darkcyan;
+            width: 200px;
+            height: 200px;
+            border: 3px solid yellow;
+            transition: 1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .item:hover{
+            border-radius: 40px;
+            transition: 1s;
+            background-color: burlywood;
+            transform: scale(1.2);
+            
+        }
+        .item:hover a{
+             color: darkblue;
+            transition: 2s;
+        }
+        .wrapper{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 35px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"><a href="#">link</a></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>
