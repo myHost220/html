@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+section p{
+    max-width: 70%;
+    font-size: large;
+    line-height: 1.6em;
+}
+section img{
+    height: 200px;
+    cursor: pointer;
+}
+.rotate{
+    transform: rotate(-180deg);
+}
